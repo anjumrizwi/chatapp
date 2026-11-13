@@ -1,0 +1,2 @@
+- [x] AI reply drafts for each incoming message (AI Gateway)
+- [ ] n8n webhook live (blocked: user must activate workflow)

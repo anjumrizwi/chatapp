@@ -1,7 +1,7 @@
 import { createServerFn } from "@tanstack/react-start";
 import { z } from "zod";
 
-const WEBHOOK = "https://arwatech.app.n8n.cloud/webhook-test/mychatapp";
+const WEBHOOK = "https://arwatech.app.n8n.cloud/webhook/mychatapp";
 
 export const sendChat = createServerFn({ method: "POST" })
   .inputValidator((d: unknown) =>
